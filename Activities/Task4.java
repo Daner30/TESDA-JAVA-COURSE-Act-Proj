@@ -3,11 +3,10 @@ package Activities;
 import java.util.Scanner;
 
 public class Task4 {
-    public static void run() {
-        Scanner scanner = new Scanner(System.in);
-
+    public static void run(Scanner scanner) {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
+
         String reversed = new StringBuilder(input).reverse().toString();
 
         if (input.equals(reversed)) {
@@ -15,7 +14,5 @@ public class Task4 {
         } else {
             System.out.println("The input string is not a palindrome.");
         }
-
-        scanner.close();
     }
 }
