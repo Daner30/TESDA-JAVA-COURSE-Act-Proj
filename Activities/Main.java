@@ -18,13 +18,13 @@ public class Main {
             System.out.print("Enter your choice: ");
 
             if (!scanner.hasNextInt()) {
-                System.out.println("Invalid input. Please enter a number.");
-                scanner.nextLine(); // clear bad input
+                System.out.println("Yabaiiii. Paki pili po ng tamang numero para hindi tayo magkasayangan ng oras :)");
+                scanner.nextLine();
                 continue;
             }
 
             choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
@@ -46,7 +46,7 @@ public class Main {
                     System.out.println("Exiting program...");
                     break;
                 default:
-                    System.out.println("Invalid choice. Please try again.");
+                    System.out.println("Yabaiiii. Paki pili po ng tamang numero para hindi tayo magkasayangan ng oras :)");
             }
         } while (choice != 0);
 
