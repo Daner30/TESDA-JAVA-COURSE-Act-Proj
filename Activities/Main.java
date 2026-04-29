@@ -22,6 +22,7 @@ public class Main {
             System.out.println("11. Run Task12 (Point scaling)");
             System.out.println("12. Run Task13 (Vehicle and Car inheritance)");
             System.out.println("13. Run Task14 (Abstract class and subclasses)");
+            System.out.println("14. Run Task15 (Shapes with interface and abstract class)");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
@@ -73,6 +74,9 @@ public class Main {
                     break;
                 case 13:
                     Task14.run();
+                    break;
+                case 14:
+                    Task15.run();
                     break;
                 case 0:
                     System.out.println("Exiting program...");

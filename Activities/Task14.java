@@ -3,7 +3,6 @@ package Activities;
 abstract class AbstractClass {
     abstract void abstractMethod();
 
-    // Concrete method allowed in abstract classes
     void concreteMethod() {
         System.out.println("This is a concrete method.");
     }
