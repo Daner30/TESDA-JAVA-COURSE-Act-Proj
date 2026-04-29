@@ -15,6 +15,7 @@ public class Main {
             System.out.println("4. Run Task5 (Largest of three numbers)");
             System.out.println("5. Run Task6 (Even numbers until 237)");
             System.out.println("6. Run Task7 (Arithmetic operations)");
+            System.out.println("7. Run Task8 (Varargs cumulative sum)");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
@@ -45,6 +46,9 @@ public class Main {
                     break;
                 case 6:
                     Task7.run(scanner);
+                    break;
+                case 7:
+                    Task8.run(scanner);
                     break;
                 case 0:
                     System.out.println("Exiting program...");
