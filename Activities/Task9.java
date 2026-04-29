@@ -1,27 +1,22 @@
 package Activities;
 
-// Static import of Math methods
 import static java.lang.Math.*;
 
 import java.util.Scanner;
 
 public class Task9 {
-    // Addition using Math.addExact()
     public static int add(int a, int b) {
         return addExact(a, b);
     }
 
-    // Subtraction using Math.subtractExact()
     public static int subtract(int a, int b) {
         return subtractExact(a, b);
     }
 
-    // Multiplication using Math.multiplyExact()
     public static int multiply(int a, int b) {
         return multiplyExact(a, b);
     }
 
-    // Division using Math.floorDiv()
     public static int divide(int a, int b) {
         if (b == 0) {
             System.out.println("Error: Division by zero!");

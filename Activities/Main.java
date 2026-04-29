@@ -18,6 +18,7 @@ public class Main {
             System.out.println("7. Run Task8 (Varargs cumulative sum)");
             System.out.println("8. Run Task9 (Math operations with static import)");
             System.out.println("9. Run Task10 (Print student full names)");
+            System.out.println("10. Run Task11 (Book details with toString)");
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
 
@@ -57,6 +58,9 @@ public class Main {
                     break;
                 case 9:
                     Task10.run();
+                    break;
+                case 10:
+                    Task11.run();
                     break;
                 case 0:
                     System.out.println("Exiting program...");
