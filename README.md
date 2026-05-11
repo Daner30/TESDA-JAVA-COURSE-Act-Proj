@@ -1,2 +1,6 @@
-# Task2
-TESDA CIICC Task 2 Activity
+TESDA CIICC 
+Task & Project
+
+Contents:
+Project: Banking App
+Tasks:
