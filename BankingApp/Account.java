@@ -2,22 +2,25 @@ package BankingApp;
 import java.util.*;
 
 public class Account {
-    private String accountNumber;
+    private String accountNumber; // phone number
     private String ownerName;
-    private double balance;
+    private String password;
     private String pin;
-    private List<Transaction> transactions; // personal history
+    private double balance;
+    private List<Transaction> transactions;
 
-    public Account(String accountNumber, String ownerName, double balance, String pin) {
+    public Account(String accountNumber, String ownerName, String dateOfBirth,
+                   String password, String pin, double balance) {
         this.accountNumber = accountNumber;
         this.ownerName = ownerName;
-        this.balance = balance;
+        this.password = password;
         this.pin = pin;
+        this.balance = balance;
         this.transactions = new ArrayList<>();
     }
 
-    public boolean authenticate(String inputPin) {
-        return this.pin.equals(inputPin);
+    public boolean authenticate(String inputPassword, String inputPin) {
+        return this.password.equals(inputPassword) && this.pin.equals(inputPin);
     }
 
     public void deposit(double amount) {
